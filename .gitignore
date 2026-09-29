@@ -1,0 +1,39 @@
+# Artefacts de compilation C/C++
+build/
+bin/
+lib/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.dll.a
+*.lib
+*.exp
+*.exe
+
+# Dependances generees par le compilateur
+*.d
+
+# Fichiers auxiliaires LaTeX (les PDF finaux restent suivis)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+.dossier
+
+# Documents internes non publies sur GitHub
+Cours_C++_MM_2Slides.md
+rapport/
+
+# Fichiers temporaires et metadonnees d'editeur
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
